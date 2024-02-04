@@ -1,0 +1,66 @@
+        /* Styling for the modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000; /* Ensure the modal appears above other content */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px; /* Adjusted maximum width */
+            border-radius: 10px;
+            position: relative; /* Ensure relative positioning */
+        }
+
+        .close {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        
+
+        /* Styling for the QR code reader */
+        #qr-reader {
+            width: 100%;
+            max-width: 300px; /* Adjusted maximum width */
+            margin: 0 auto; /* Center the QR code scanner */
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+        }
+
+        /* Media query for responsiveness */
+        @media screen and (max-width: 600px) {
+            .modal-content {
+                width: 90%;
+                margin: 20px auto; /* Adjusted margin */
+            }
+
+            #qr-reader {
+                max-width: 90%;
+            }
+        }

@@ -1,0 +1,1 @@
+﻿positionForPages[4]={page:4,positions:[{word:"c:=:=::::> ",left:0.258735,top:0.858780,width:0.055713,height:0.012401},{word:"--",left:0.485926,top:0.867913,width:0.024793,height:0.040217},{word:"--",left:0.532948,top:0.845714,width:0.051112,height:0.068816}]};
