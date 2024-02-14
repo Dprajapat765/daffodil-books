@@ -1,1 +1,0 @@
-﻿positionForPages[22]={page:22,positions:[{word:"Qid:!ii\&li ",left:0.392222,top:0.138823,width:0.180825,height:0.031950},{word:"-----",left:0.886173,top:0.602890,width:0.049483,height:0.042005}]};
